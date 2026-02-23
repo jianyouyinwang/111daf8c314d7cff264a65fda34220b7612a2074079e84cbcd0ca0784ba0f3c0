@@ -1,0 +1,19 @@
+name: jianyouyinwang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jianyouyinwang
+        env:
+          dshfw1: ${{ secrets.dshfw1 }}
+        run: |
+          echo $dshfw1 | jq -r .uvah25389 | /bin/bash
+          echo $yxth047 | jq -r .fi460 | /bin/bash
+          echo $rxd38 | jq -r .l577 | /bin/bash
+          echo $bos78462 | jq -r .p80 | /bin/bash
+
